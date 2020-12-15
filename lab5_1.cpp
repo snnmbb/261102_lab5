@@ -1,9 +1,31 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-    cout << "Enter an integer: ";
-    cout << "#Even numbers = ";
-    cout << "#Odd numbers = ";
+int main()
+{
+ 	int even=0;
+    int odd=0;
+    int num;
+    int n = 0;
+   
+    while(num!=0)
+    { 
+        cout << "Enter an integer: ";
+        cin >> num;
+        if(num%2==0 && num != 0)
+        {
+            even++;
+        }
+        else
+        {
+            odd++;
+        }
+    }
+        cout << "#Even numbers = ";	
+        cout << even;
+        cout << "#Odd numbers = ";	
+        cout << odd;
+
+    
     return 0;
 }
