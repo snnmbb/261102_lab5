@@ -27,6 +27,5 @@ int main()
     cout << even << "\n";
     cout << "#Odd numbers = ";	
     cout << odd;
-
     return 0;
 }
